@@ -54,9 +54,6 @@ export default function Navbar(props) {
               Enable Dark Mode
             </label>
           </div>
-
-
-
         </div>
       </div>
     </nav>

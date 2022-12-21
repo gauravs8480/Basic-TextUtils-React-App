@@ -50,10 +50,10 @@ else{
 <Alert  alert={alert}/> 
 <div className="container  my-10">
 <Routes>
-          <Route path="/about" element={  <About />}/>
+          <Route path="/about" element={  <About mode={mode}/>}/>
           
-          <Route path="" element={<TextForm showAlert={showAlert} heading="Analize Your Text Here " mode={mode}/>}/>
-          <Route path="/home" element={<TextForm showAlert={showAlert} heading="Analize Your Text Here " mode={mode}/>}/>
+          <Route path="" element={<TextForm showAlert={showAlert} heading=" Try TextUtils - Word Counter,Character Counter,Remove extra spaces" mode={mode}/>}/>
+          <Route path="/home" element={<TextForm showAlert={showAlert} heading=" " mode={mode}/>}/>
         </Routes>
 </div>
 </Router>
