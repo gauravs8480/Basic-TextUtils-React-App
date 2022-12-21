@@ -48,7 +48,7 @@ const handleExtraSpaces=() => {
     <div className="container my-2"  style={{color: props.mode==='dark'?'white':'#042743'}}>
         <h1>Text Summary</h1>
         <p>
-            words:{text.split(" ").filter((element)=>{return element.length!==0}).length}<br></br>
+            words:{text.split(/\s+/).filter((element)=>{return element.length!==0}).length}<br></br>
             characters:{text.length}<br></br>
             Average time to read word:{0.008*text.split(" ").filter((element)=>{return element.length!==0}).length}<br></br>
         </p>
