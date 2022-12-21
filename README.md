@@ -27,6 +27,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+HERE I Have Deployed This on  [https://textutils01.netlify.app/](https://textutils01.netlify.app/) to view it in your browser.
+
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
